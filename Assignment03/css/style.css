@@ -1,0 +1,136 @@
+body {
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #ebebeb;
+}
+header {
+	background-color: #033048;
+	width: 100vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 28rem;
+	box-sizing: border-box;
+}
+header h1 {
+	font-weight: 900;
+	font-size: 3rem;
+	color: white;
+}
+header nav a {
+	color: #f9e42e;
+	font-size: 1.5rem;
+	margin: 0 2rem;
+	text-decoration: none;
+}
+main {
+	display: flex;
+	flex-direction: row;
+	margin: 2rem 28rem;
+}
+article h2 {
+	color: #033048;
+	font-size: 39px;
+	font-weight: 600;
+	margin-right: 1rem;
+}
+.storycolumns {
+	margin-right: 3rem;
+	font-size: 24px;
+	font-weight: 300;
+}
+.firstletter {
+	color: #606161;
+  	font-size: 70px;
+  	line-height: 1.4em;
+  	font-weight: 600;
+  	vertical-align: top;
+  	padding: 1 8px;
+}
+p{
+	margin-bottom: 5rem;
+}
+article {
+	border-bottom: solid;
+	border-width: 1px;
+	padding-top: 1.5rem;
+	padding-bottom: 2rem;
+}
+.readmore a {
+	color: #033048;
+	font-size: 24px;
+	font-weight: 600;
+	text-decoration: none;
+	margin-left: 34rem;
+}
+.sidecolumns {
+	width: 100vw;
+	margin-right: 50rem;
+	font-weight: 300;
+	margin-top: 0.25rem; 
+}
+h3 {
+	font-size: 34px;
+	font-weight: 900;
+}
+.sidecolumns nav a {
+	text-decoration: none;
+	display: flex;
+	color: #033048;
+	font-size: 24px;
+	margin: 0.2rem;
+}
+.about {
+	font-size: 24px;
+	color: #033048;
+}
+.about p {
+	margin-right: 0.3rem;
+	font-size: 21px;
+}
+.about a {
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 700;
+	color: #033048;
+	margin-top: 3rem;
+}
+.ineedmoney {
+	cursor: pointer;
+	margin-top: 3.5rem;
+}
+.signupsection {
+	background: #f9e42e;
+	text-align: center;
+	padding: 2.5rem;
+}
+.signupsection a {
+	font-weight: 800;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	background-color: #033048;
+	border-style: none;
+	padding: 15px 60px;
+	border-radius: 5px;
+}
+footer {
+	background-color: #121212;
+	text-align: center;
+	padding: 10px;
+}
+footer h1 {
+	color: #f9e42e;
+	font-weight: 800;
+	font-size: 48px;
+}
+footer p {
+	color: white;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 300;
+}
+footer img {
+	margin: 20px;
+	padding-right: 0.4rem;
+}
